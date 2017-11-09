@@ -26,10 +26,9 @@ They populate the public storefront with baseline offerings, including internal 
 </ul>
 </li>
 </ul>
-<h3 id="definition">Definition</h3>
-<p>When updating the markdown (.md) file, please have a look at a couple of other existing services (e.g., SPMS, Twilio, etc.) for formatting and content guidelines.</p>
-<h3 id="json-file">*.json File</h3>
-<p><a href="https://docs.google.com/document/d/1VlFmkiNcBK9AX6BpgV-E_5EDGgt0K_L5exJcgv6gEDQ/edit#heading=h.l6fiheqnpa08">bizapi document</a></p>
+<p>When updating the markdown (.md) file and json file, please have a look at a couple of other existing services (e.g., SPMS, Twilio, etc.) for formatting and content guidelines.</p>
+<h3 id="json-file-definition">*.json File definition</h3>
+<p>This json file is base on <a href="https://docs.google.com/document/d/1VlFmkiNcBK9AX6BpgV-E_5EDGgt0K_L5exJcgv6gEDQ/edit#heading=h.l6fiheqnpa08">bizapi document</a>.</p>
 <ul>
 <li>
 <h4 id="type">type</h4>
@@ -85,12 +84,12 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <img src="./readme_resources/tier_ enterprise.png" width="213"></p>
 </li>
 </ul>
-<h3 id="md-file">*.md File</h3>
+<h3 id="md-file-definition">*.md File definition</h3>
 <ul>
 <li>
 <h4 id="description-1">description</h4>
-The firtst line is title, it contains exchange element’s name and service type image. But it doesn’t shows at anywhere for now.
-After firtst line is description, it supports markdown format. You can provide further information than  <a href="#description">description</a> in json file.</li>
+The firtst line is title, it contains exchange element’s name and service type image. It doesn’t shows at anywhere for now, but still should give it a name.
+After firtst line is description, it supports markdown format. You can provide further information than <a href="#description">description</a> in json file.</li>
 </ul>
 <pre><code># Mbed Service &lt;img style="float: right;" src="https://s3-us-west-1.amazonaws.com/exosite-exchange-dev/images/Card+Description+Images/service.png" width="75"&gt;
 
