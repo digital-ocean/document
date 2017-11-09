@@ -80,7 +80,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <li>
 <h4 id="tiers">tiers</h4>
 <p><strong><em>IMPORTANT!</em></strong> – Bizapi doesn’t support tiers when calling API, but it will create a empty array in MongoDB.
-You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>["free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.  You can use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> by running <code>node index.js --public &lt;elementId&gt;</code> to public a exchange element or modify MongoDB directly.
+You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>["free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.  You can use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> by running <code>node index.js --public &lt;elementId&gt;</code> to publish an exchange element or modify MongoDB directly.
 <img src="./readme_resources/tier_professional.png" width="213">
 <img src="./readme_resources/tier_ enterprise.png" width="213"></p>
 </li>
@@ -89,8 +89,8 @@ You’ll need to populate the <code>tiers</code> array or the element will not a
 <ul>
 <li>
 <h4 id="description-1">description</h4>
-The firtst line is title, it contains exchange element’s name and service type image. It doesn’t shows at anywhere for now, but still should give it a name.
-After firtst line is description, it supports markdown format. You can provide further information than <a href="#description">description</a> in json file.</li>
+The first line is a title, it contains exchange element’s name and service type image. It doesn’t show at anywhere for now but still should give it a name.
+After the first line is a description, it supports markdown format. You can provide further information than the <a href="#description">description</a> in json file.</li>
 </ul>
 <pre><code># Mbed Service &lt;img style="float: right;" src="https://s3-us-west-1.amazonaws.com/exosite-exchange-dev/images/Card+Description+Images/service.png" width="75"&gt;
 
