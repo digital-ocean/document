@@ -38,8 +38,10 @@ They populate the public storefront with baseline offerings, including internal 
 <li>
 <h4 id="name">name</h4>
 <p>Name would display in these areas:<br>
-<img src="./readme_resources/name.png" width="213"><br>
-<img src="./readme_resources/name2.png" width="600"></p>
+<img src="./readme_resources/name.png" width="213">
+<img src="./readme_resources/name2.png" width="600">
+Go to solutions then choose your applications at services tab then click <em>+NEW SERVICES</em>
+<img src="./readme_resources/name3.png" width="600"></p>
 </li>
 <li>
 <h4 id="image">image</h4>
