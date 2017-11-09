@@ -33,17 +33,19 @@ They populate the public storefront with baseline offerings, including internal 
 <ul>
 <li>
 <h4 id="type">type</h4>
-Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</li>
+<p>Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</p>
+</li>
 <li>
 <h4 id="name">name</h4>
-Name would display in these areas:<br>
+<p>Name would display in these areas:<br>
 <img src="./readme_resources/name.png" width="213"><br>
-<img src="./readme_resources/name2.png" width="600"></li>
+<img src="./readme_resources/name2.png" width="600"></p>
+</li>
 <li>
 <h4 id="image">image</h4>
-For the Thumbnail and Details page images, please create a ticket with the name/s of the elements to be created and add the label uxd-required. Then every Monday morning Nick backlog groom and plan that week’s (one week long) sprint and as much of the following as we know.
+<p>For the Thumbnail and Details page images, please create a ticket with the name/s of the elements to be created and add the label uxd-required. Then every Monday morning Nick backlog groom and plan that week’s (one week long) sprint and as much of the following as we know.
 Marking it as a blocker/major or giving it a due date will help expedite!!<br>
-Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.
+Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.</p>
 <ul>
 <li>thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.<br>
 <img src="./readme_resources/thumbnail.png" width="213"></li>
@@ -53,28 +55,30 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 <li>
 <h4 id="description">description</h4>
+  <img src="./readme_resources/description.png" width="213">
+  <img src="./readme_resources/description2.png" width="600">
 </li>
-</ul>
-<img src="./readme_resources/description.png" width="213">
-<img src="./readme_resources/description2.png" width="600">
-<ul>
 <li>
 <h4 id="tags">tags</h4>
-You can add tags as desired.  In the new details layout, these tags will not be displayed, but will later be leveraged for sorting, filtering, searching.</li>
+<p>You can add tags as desired.  In the new details layout, these tags will not be displayed, but will later be leveraged for sorting, filtering, searching.</p>
+</li>
 <li>
 <h4 id="markdown">markdown</h4>
-When using <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a>, it will stringify the md file and attach string to here. See <a href="#md-file">*.md file</a>.</li>
+<p>When using <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a>, it will stringify the md file and attach string to here. See <a href="#md-file">*.md file</a>.</p>
+</li>
 <li>
 <h4 id="source">source</h4>
-Since this is a service, you can just copy/paste exactly what any of the other services have for actions. The URL property is ignored for this element type but the full action’s shape is required.  Here is what you’ll use:
+<p>Since this is a service, you can just copy/paste exactly what any of the other services have for actions. The URL property is ignored for this element type but the full action’s shape is required.  Here is what you’ll use:
 “actions”: [
 “url”: “<a href="https://raw.githubusercontent.com/exosite-garage/">https://raw.githubusercontent.com/exosite-garage/</a>…”,
 “type”: “service”,
 “primary”: true
-]</li>
+]</p>
+</li>
 <li>
 <h4 id="tiers">tiers</h4>
-<strong><em>IMPORTANT!</em></strong> – You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>[ "free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.</li>
+<p><strong><em>IMPORTANT!</em></strong> – You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>[ "free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.</p>
+</li>
 </ul>
 <h3 id="md-file">*.md File</h3>
 
