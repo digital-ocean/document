@@ -38,9 +38,9 @@ Only can be <code>application</code> right now. When calling bizapi, it only all
 <h4 id="name">name</h4>
 </li>
 </ul>
-<p>name would display in these areas:<br>
+<p>name would display in these areas:</p>
 <img src="./readme_resources/name.png" width="213">
-<img src="./readme_resources/name2.png" width="600"></p>
+<img src="./readme_resources/name2.png" width="600">
 <ul>
 <li>
 <h4 id="image">image</h4>
@@ -48,15 +48,13 @@ Only can be <code>application</code> right now. When calling bizapi, it only all
 Marking it as a blocker/major or giving it a due date will help expedite!!<br>
 Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.</p>
 <ul>
-<li>
-<p>thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.<br>
-<img src="./readme_resources/thumbnail.png" width="213"></p>
-</li>
-<li>
-<p>detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.
-<img src="./readme_resources/detail.png" width="600"></p>
-</li>
+<li>thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.</li>
 </ul>
+  <img src="./readme_resources/thumbnail.png" width="213">
+<ul>
+<li>detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.</li>
+</ul>
+  <img src="./readme_resources/detail.png" width="600">
 </li>
 <li>
 <h4 id="description">description</h4>
