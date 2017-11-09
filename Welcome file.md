@@ -44,7 +44,7 @@ Marking it as a blocker/major or giving it a due date will help expedite!!<br>
 Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.</p>
 <ul>
 <li>thumbnail
-<img src="./readme_resources/thumbnail.png" alt="enter image description here"></li>
+![thumbnail](./readme_resources/thumbnail.png =100x20)</li>
 <li>detail</li>
 </ul>
 </li>
