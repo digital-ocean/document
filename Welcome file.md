@@ -43,11 +43,14 @@ They populate the public storefront with baseline offerings, including internal 
 Marking it as a blocker/major or giving it a due date will help expedite!!<br>
 Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.</p>
 <ul>
-<li>thumbnail
-<img src="./readme_resources/thumbnail.png" alt="thumbnail">{.img}</li>
-<li>detail</li>
+<li>thumbnail</li>
 </ul>
 </li>
+</ul>
+<p><img src="./readme_resources/thumbnail.png" alt="thumbnail">{.img}</p>
+<pre><code>- detail
+</code></pre>
+<ul>
 <li>
 <h4 id="description">description</h4>
 </li>
