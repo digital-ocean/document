@@ -32,6 +32,7 @@ Marking it as a blocker/major or giving it a due date will help expedite!!
 	<img src="./readme_resources/thumbnail.png" width="213">
 
 	- detail
+	<img src="./readme_resources/detail.png" width="500">
 - #### description
 
 - #### tags
@@ -51,12 +52,54 @@ Marking it as a blocker/major or giving it a due date will help expedite!!
 
 
  [exchange-element-tool]:https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool
- <style type="text/css">
-    .img{
-        width: 50%;
-    }
-</style>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMzMzcwNzBdfQ==
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
