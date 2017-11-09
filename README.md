@@ -36,7 +36,7 @@ They populate the public storefront with baseline offerings, including internal 
 Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</li>
 <li>
 <h4 id="name">name</h4>
-name would display in these areas:</li>
+Name would display in these areas:</li>
 </ul>
 <img src="./readme_resources/name.png" width="213">
 <img src="./readme_resources/name2.png" width="600">
