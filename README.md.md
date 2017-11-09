@@ -33,14 +33,14 @@ They populate the public storefront with baseline offerings, including internal 
 <ul>
 <li>
 <h4 id="type">type</h4>
-Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</li>
+<p>Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</p>
+</li>
 <li>
 <h4 id="name">name</h4>
-name would display in these areas:</li>
-</ul>
+<p>name would display in these areas:
 <img src="./readme_resources/name.png" width="213">
-<img src="./readme_resources/name2.png" width="600">
-<ul>
+<img src="./readme_resources/name2.png" width="600"></p>
+</li>
 <li>
 <h4 id="image">image</h4>
 <p>For the Thumbnail and Details page images, please create a ticket with the name/s of the elements to be created and add the label uxd-required. Then every Monday morning Nick backlog groom and plan that week’s (one week long) sprint and as much of the following as we know.
