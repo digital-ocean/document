@@ -89,17 +89,18 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <ul>
 <li>
 <h4 id="description-1">description</h4>
-</li>
+The firtst line is title, it contains exchange element’s name and service type image. But it doesn’t shows at anywhere for now.
+After firtst line is description, it supports markdown format. You can provide further information than  <a href="#description">description</a> in json file.</li>
 </ul>
-<pre class=" language-undefined"><code class="prism language-# language-undefined">
+<pre><code># Mbed Service &lt;img style="float: right;" src="https://s3-us-west-1.amazonaws.com/exosite-exchange-dev/images/Card+Description+Images/service.png" width="75"&gt;
+
 The Mbed service allows you to integrate murano with mbed connector.
 </code></pre>
 <ul>
 <li>
 <h4 id="documentation">documentation</h4>
-</li>
+Documentation is optional, but better have.</li>
 </ul>
-<p>Documentation is optional, but better have.</p>
 <pre><code>Documentation:
 
 [Mbed Service Documentation](http://docs.exosite.com/reference/services/mbed/)
