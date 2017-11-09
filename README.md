@@ -33,7 +33,7 @@ They populate the public storefront with baseline offerings, including internal 
 <ul>
 <li>
 <h4 id="type">type</h4>
-<p>Only can be <code>application</code> right now. When calling bizapi, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</p>
+<p>Only can be <code>application</code> right now. When calling bizapi - <code>PUT /exchange/{bizid}/element/{elementId}</code>, it only allows <code>application</code> type. After exchange element created, you need change type to <code>service</code> from MongoDB or use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> to update it.</p>
 </li>
 <li>
 <h4 id="name">name</h4>
@@ -80,7 +80,9 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 <li>
 <h4 id="tiers">tiers</h4>
-<p><strong><em>IMPORTANT!</em></strong> – You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>[ "free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.</p>
+<p><strong><em>IMPORTANT!</em></strong> – You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>[ "free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.
+<img src="./readme_resources/tier_professional.png" width="600">
+<img src="./readme_resources/tier_ enterprise.png" width="600"></p>
 </li>
 </ul>
 <h3 id="md-file">*.md File</h3>
