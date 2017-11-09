@@ -11,7 +11,7 @@ They populate the public storefront with baseline offerings, including internal 
 <p>Open a PR against the master branch if updates are needed.</p>
 <h2 id="make-a-service-type-exchange-element">Make a service type Exchange Element</h2>
 <h3 id="files-structure">Files structure</h3>
-<p>In the elements folder, contain all of the elements that we have. You need to create a folder, name it <code>service-&lt;service name&gt;</code>. In the folder create  a <code>service-&lt;service name&gt;.md</code> file and a <code>service-&lt;service name&gt;.json</code> file and a detail image and a thumbnail imgae for this service.  like this,</p>
+<p>In the elements folder, contain all of the elements that we have. You need to create a folder, name it <code>service-&lt;service name&gt;</code>. In the folder create  a <code>service-&lt;service name&gt;.md</code> file and a <code>service-&lt;service name&gt;.json</code> file and a detail image and a thumbnail image for this service.  like this,</p>
 <ul>
 <li>elements
 <ul>
@@ -51,7 +51,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <ul>
 <li>thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.<br>
 <img src="./readme_resources/thumbnail.png" width="213"></li>
-<li>detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.<br>
+<li>detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image on the cloud.<br>
 <img src="./readme_resources/detail.png" width="600"></li>
 </ul>
 </li>
@@ -74,7 +74,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <ul>
 <li>from:  “service”</li>
 <li>name: unique service alias.</li>
-<li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it finish, we can create a service as creating exchange element. So skip the remove the attr for now.<br>
+<li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it’s done, we can create a service as creating exchange element. So remove the attr for now.<br>
 <img src="./readme_resources/source_name.png" width="600"></li>
 </ul>
 </li>
