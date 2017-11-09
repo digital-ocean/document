@@ -53,7 +53,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <ul>
 <li>detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> will update the url part for bizapi, it won’t change this <code>.josn</code> file. When you want call bizapi manually, you need to change url path which image at cloud.</li>
 </ul>
-  <img src="./readme_resources/detail.png" width="600">
+  <img src="./readme_resources/detail.png" width="600">	
 </li>
 <li>
 <h4 id="description">description</h4>
