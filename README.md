@@ -69,10 +69,9 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 <li>
 <h4 id="source">source</h4>
-<p>Since this is a service, you can just copy/paste exactly what any of the other services have for actions. The URL property is ignored for this element type but the full action’s shape is required.  Here is what you’ll use:</p>
 <ul>
 <li>from:  “service”</li>
-<li>name: unique service alias.</li>
+<li>name: the service alias. At <a href="https://github.com/exosite/pegasus_registry/tree/master/services">Pegasus Registry</a>, you can see many yaml files. Pegasus will create a service by yaml file’s name.</li>
 <li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it’s done, we can create a service as creating exchange element. So remove the attr for now.<br>
 <img src="./readme_resources/source_name.png" width="600"></li>
 </ul>
