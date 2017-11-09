@@ -39,7 +39,7 @@ They populate the public storefront with baseline offerings, including internal 
 <h4 id="name">name</h4>
 <p>Name would display in these areas:<br>
 <img src="./readme_resources/name.png" width="213">
-<img src="./readme_resources/name2.png" width="600">
+<img src="./readme_resources/name2.png" width="600"><br>
 Go to solutions then choose your applications at services tab then click <em>+NEW SERVICES</em>
 <img src="./readme_resources/name3.png" width="600"></p>
 </li>
