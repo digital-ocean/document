@@ -18,11 +18,13 @@ In the elements folder, contain all of the elements that we have. You need to cr
 		- service-mbed_serivce.md
 		     
 ### Definition
-When updating the markdown (.md) file, please have a look at a couple of other existing services (e.g., SPMS, Twilio, etc.) for formatting and content guidance.
+When updating the markdown (.md) file, please have a look at a couple of other existing services (e.g., SPMS, Twilio, etc.) for formatting and content guidelines.
 ### *.json File
 - #### type 
-	Only can be `application` right now. When calling bizapi, it only allow `application` type. After exchange element created, you need change type to `service` from MongoDB or use [exchange-element-tool] to update it.
+	Only can be `application` right now. When calling bizapi, it only allows `application` type. After exchange element created, you need change type to `service` from MongoDB or use [exchange-element-tool] to update it.
 - #### name
+<img src="./readme_resources/name.png" width="213">
+<img src="./readme_resources/name2.png" width="213">
 
 - #### image
 	For the Thumbnail and Details page images, please create a ticket with the name/s of the elements to be created and add the label uxd-required. Then every Monday morning Nick backlog groom and plan that week's (one week long) sprint and as much of the following as we know.
@@ -32,11 +34,11 @@ Marking it as a blocker/major or giving it a due date will help expedite!!
 	<img src="./readme_resources/thumbnail.png" width="213">
 
 	- detail
-	<img src="./readme_resources/detail.png" width="500">
+	<img src="./readme_resources/detail.png" width="600">
 - #### description
 
 - #### tags
-	You can add tags as desired.  In the new details layout these tags will not be displayed, but will later be leveraged for sorting, filtering, searching.
+	You can add tags as desired.  In the new details layout, these tags will not be displayed, but will later be leveraged for sorting, filtering, searching.
 - #### markdown
 	When using [exchange-element-tool], it will stringify the md file and attach string to here. See [*.md file](#md-file).
 - #### source
@@ -52,6 +54,94 @@ Marking it as a blocker/major or giving it a due date will help expedite!!
 
 
  [exchange-element-tool]:https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
