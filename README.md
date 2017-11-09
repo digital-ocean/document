@@ -86,4 +86,14 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 </ul>
 <h3 id="md-file">*.md File</h3>
+<pre class=" language-undefined"><code class="prism language-# language-undefined">
+The Mbed service allows you to integrate murano with mbed connector.
+</code></pre>
+<pre><code>Documentation:
+
+[Mbed Service Documentation](http://docs.exosite.com/reference/services/mbed/)
+
+[Mbed Service Quickstart Guide](https://support.exosite.com/hc/en-us/articles/115004946503)
+</code></pre>
+<img src="./readme_resources/mdfile.png" width="600">
 
