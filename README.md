@@ -72,13 +72,11 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <h4 id="source">source</h4>
 <p>Since this is a service, you can just copy/paste exactly what any of the other services have for actions. The URL property is ignored for this element type but the full action’s shape is required.  Here is what you’ll use:</p>
 <ul>
-<li>from: one of “service”|“github”|“attachment”|“url”,</li>
-<li>name: if from “service”, unique service alias; if from “attachment”, name of attachment; unused for other source.from types.</li>
-<li>token: if from ‘github’, then token string. Unused for other source.from types.</li>
-<li>url: if from “url”, then url string; if from “github”, then git repo string. For service: the link to the swagger schema file (with the “from=url”).</li>
-<li>schema: for “from=service”: the swagger schema in yaml format. Unused for other source.from types.</li>
+<li>from:  “service”</li>
+<li>name: unique service alias.</li>
+<li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it finish, we can create a service as creating exchange element. So skip the remove the attr for now.
+<img src="./readme_resources/source_name.png" width="600"></li>
 </ul>
-  <img src="./readme_resources/source_name.png" width="600">
 </li>
 <li>
 <h4 id="tiers">tiers</h4>
