@@ -74,7 +74,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 <ul>
 <li>from:  “service”</li>
 <li>name: unique service alias.</li>
-<li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it finish, we can create a service as creating exchange element. So skip the remove the attr for now.
+<li>schema: for “from=service”: the swagger schema in yaml format. It’s not workable now, depends on <a href="https://jira.exosite.com/browse/MUR-3824">MUR-3824</a>. Once it finish, we can create a service as creating exchange element. So skip the remove the attr for now.<br>
 <img src="./readme_resources/source_name.png" width="600"></li>
 </ul>
 </li>
