@@ -79,7 +79,8 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 <li>
 <h4 id="tiers">tiers</h4>
-<p><strong><em>IMPORTANT!</em></strong> – You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>[ "free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.<br>
+<p><strong><em>IMPORTANT!</em></strong> – Bizapi doesn’t support tiers when calling API, but it will create a empty array in MongoDB.
+You’ll need to populate the <code>tiers</code> array or the element will not appear on the Exchange.  You’ll want to list all of the tiers that this service can be accessed at.  So if it’s available for everyone then tiers: <code>["free", "developer", "professional", "enterprise"]</code>. If just professional or higher tiers: <code>["professional", "enterprise"]</code>, and so on.  You can use <a href="https://github.com/exosite/dqa-env/tree/master/bin/exchange-element-tool">exchange-element-tool</a> by running <code>node index.js --public &lt;elementId&gt;</code> to public a exchange element or modify MongoDB directly.
 <img src="./readme_resources/tier_professional.png" width="213">
 <img src="./readme_resources/tier_ enterprise.png" width="213"></p>
 </li>
