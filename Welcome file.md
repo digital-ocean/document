@@ -47,7 +47,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </ul>
 </li>
 </ul>
-<p><img src="./readme_resources/thumbnail.png" alt="thumbnail">{.img}</p>
+<p><img src="./readme_resources/thumbnail.png" alt="thumbnail">{: width=20px}</p>
 <pre><code>- detail
 </code></pre>
 <ul>
