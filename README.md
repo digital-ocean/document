@@ -55,7 +55,7 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 </li>
 <li>
 <h4 id="description">description</h4>
-  <img src="./readme_resources/description.png" width="213">
+  <img src="./readme_resources/description.png" width="213">  
   <img src="./readme_resources/description2.png" width="600">
 </li>
 <li>
