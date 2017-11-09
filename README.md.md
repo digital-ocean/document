@@ -38,7 +38,7 @@ Only can be <code>application</code> right now. When calling bizapi, it only all
 <h4 id="name">name</h4>
 </li>
 </ul>
-<p>name would display in these areas:
+<p>name would display in these areas:<br>
 <img src="./readme_resources/name.png" width="213">
 <img src="./readme_resources/name2.png" width="600"></p>
 <ul>
