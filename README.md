@@ -75,7 +75,8 @@ Once you have images, adding the file name to the JSON.  The UI does the differe
 “url”: “<a href="https://raw.githubusercontent.com/exosite-garage/">https://raw.githubusercontent.com/exosite-garage/</a>…”,
 “type”: “service”,
 “primary”: true
-]</p>
+]
+<img src="./readme_resources/source_name.png" width="600"></p>
 </li>
 <li>
 <h4 id="tiers">tiers</h4>
