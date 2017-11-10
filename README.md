@@ -30,10 +30,9 @@ This json file is base on [bizapi document](https://docs.google.com/document/d/1
 	Only can be `application` right now. When calling bizapi - `PUT /exchange/{bizid}/element/{elementId}
 `, it only allows `application` type. After exchange element created, you need change type to `service` from MongoDB or use [exchange-element-tool] to update it.
 - #### name
-	Name would display in these areas:  
+	Name would display in these areas:
 	<img src="./readme_resources/name.png" width="213">
 	<img src="./readme_resources/name2.png" width="600">
-	
 	Go to solutions then choose your applications at services tab then click *+NEW SERVICES*
 	<img src="./readme_resources/name3.png" width="600">
 - #### image
