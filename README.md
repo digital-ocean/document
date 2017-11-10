@@ -42,10 +42,14 @@ This json file is base on [bizapi document](https://docs.google.com/document/d/1
 	Marking it as a blocker/major or giving it a due date will help expedite!!
 	Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.
 
-	- thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image at cloud.  
-  <img src="./readme_resources/thumbnail.png" width="213">  
-	- detail - detail is a large image show in exchange element detail page. Update the filename to same as the images you want to upload. When running [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image on the cloud.  
-  <img src="./readme_resources/detail.png" width="600">  
+	- thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image at cloud.
+
+		<img src="./readme_resources/thumbnail.png" width="213">
+
+	- detail - detail is a large image show in exchange element detail page. Update the filename to same as the images you want to upload. When running [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image on the cloud.
+
+		<img src="./readme_resources/detail.png" width="600">
+
 - #### description
 	<img src="./readme_resources/description.png" width="213">
 	<img src="./readme_resources/description2.png" width="600">
