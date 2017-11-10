@@ -9,7 +9,8 @@
 EMAIL: <a href="mailto:exchange@exosite.com">exchange@exosite.com</a>
 They populate the public storefront with baseline offerings, including internal services normally granted to all solutions.</p>
 <p>Open a PR against the master branch if updates are needed.</p>
-<h2 id="make-a-service-type-exchange-element">Make a service type Exchange Element</h2>
+<hr>
+<h2 id="create-exchange-element-definition-files">Create Exchange Element definition files</h2>
 <h3 id="files-structure">Files structure</h3>
 <p>In the elements folder, contain all of the elements that we have. You need to create a folder, name it <code>service-&lt;service name&gt;</code>. In the folder create  a <code>service-&lt;service name&gt;.md</code> file and a <code>service-&lt;service name&gt;.json</code> file and a detail image and a thumbnail image for this service.  like this,</p>
 <ul>
@@ -107,4 +108,6 @@ Documentation is optional, but better have.</li>
 [Mbed Service Quickstart Guide](https://support.exosite.com/hc/en-us/articles/115004946503)
 </code></pre>
 <img src="./readme_resources/mdfile.png" width="600">
+<hr>
+<p>The readme only include create exchange element definition files, about how to publish a service as an exchange element please read this <a href="https://wiki.exosite.com/display/ENG/How+to+publish+a+service+as+Exchange+Element">wiki</a>.</p>
 
