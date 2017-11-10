@@ -40,13 +40,12 @@ This json file is base on [bizapi document](https://docs.google.com/document/d/1
 Marking it as a blocker/major or giving it a due date will help expedite!!  
 	Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.
 	- thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image at cloud.  
-	<img src="./readme_resources/thumbnail.png" width="213">
+	<img src="./readme_resources/thumbnail.png" width="213">  
 	- detail - detail is a large image show in exchange element detail page.  Update the filename to same as the images you want to upload. When running  [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image on the cloud.  
-	<img src="./readme_resources/detail.png" width="600">	
+	<img src="./readme_resources/detail.png" width="600">  	
 - #### description
 	<img src="./readme_resources/description.png" width="213">  
 	<img src="./readme_resources/description2.png" width="600">
-
 - #### tags
 	You can add tags as desired.  In the new details layout, these tags will not be displayed, but will later be leveraged for sorting, filtering, searching.
 - #### markdown
@@ -60,26 +59,26 @@ Marking it as a blocker/major or giving it a due date will help expedite!!
 	***IMPORTANT!*** – Bizapi doesn't support tiers when calling API, but it will create a empty array in MongoDB. 
 	You'll need to populate the `tiers` array or the element will not appear on the Exchange.  You'll want to list all of the tiers that this service can be accessed at.  So if it's available for everyone then tiers: `["free", "developer", "professional", "enterprise"]`. If just professional or higher tiers: `["professional", "enterprise"]`, and so on.  You can use [exchange-element-tool] by running `node index.js --public  <elementId>` to publish an exchange element or modify MongoDB directly.
 	<img src="./readme_resources/tier_professional.png" width="213">
-	<img src="./readme_resources/tier_ enterprise.png" width="213">
+	<img src="./readme_resources/tier_enterprise.png" width="213">
 ### *.md File definition
 - #### description
 	The first line is a title, it contains exchange element's name and service type image. It doesn't show at anywhere for now but still should give it a name.
 	After the first line is a description, it supports markdown format. You can provide further information than the [description](#description) in json file.
-```
-# Mbed Service <img style="float: right;" src="https://s3-us-west-1.amazonaws.com/exosite-exchange-dev/images/Card+Description+Images/service.png" width="75">
+	```
+	# Mbed Service <img style="float: right;" src="https://s3-us-west-1.amazonaws.com/exosite-exchange-dev/images/Card+Description+Images/service.png" width="75">
 
-The Mbed service allows you to integrate murano with mbed connector.
-```
+	The Mbed service allows you to integrate murano with mbed connector.
+	```
 - #### documentation
 	Documentation is optional, but better have.
-```
-Documentation:
+	```
+	Documentation:
 
-[Mbed Service Documentation](http://docs.exosite.com/reference/services/mbed/)
+	[Mbed Service Documentation](http://docs.exosite.com/reference/services/mbed/)
 
-[Mbed Service Quickstart Guide](https://support.exosite.com/hc/en-us/articles/115004946503)
-```
-<img src="./readme_resources/mdfile.png" width="600">
+	[Mbed Service Quickstart Guide](https://support.exosite.com/hc/en-us/articles/115004946503)
+	```
+	<img src="./readme_resources/mdfile.png" width="600">
 
 
 ----------
