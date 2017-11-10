@@ -31,13 +31,15 @@ This json file is base on [bizapi document](https://docs.google.com/document/d/1
 `, it only allows `application` type. After exchange element created, you need change type to `service` from MongoDB or use [exchange-element-tool] to update it.
 - #### name
 	Name would display in these areas:
+	
 	<img src="./readme_resources/name.png" width="213">
 	<img src="./readme_resources/name2.png" width="600">
+	
 	Go to solutions then choose your applications at services tab then click *+NEW SERVICES*
 	<img src="./readme_resources/name3.png" width="600">
 - #### image
 	For the Thumbnail and Details page images, please create a ticket with the name/s of the elements to be created and add the label uxd-required. Then every Monday morning Nick backlog groom and plan that week's (one week long) sprint and as much of the following as we know.
-Marking it as a blocker/major or giving it a due date will help expedite!!  
+	Marking it as a blocker/major or giving it a due date will help expedite!!  
 	Once you have images, adding the file name to the JSON.  The UI does the differentiating between thumbnail and main image for you.
 	- thumbnail - thumbnail is a small image show in exchange element card. Update the filename to same as the images you want to upload. When running  [exchange-element-tool] will update the url part for bizapi, it won't change this `.josn` file. When you want call bizapi manually, you need to change url path which image at cloud.
 	
